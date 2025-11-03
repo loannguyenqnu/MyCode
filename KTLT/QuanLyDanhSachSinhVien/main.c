@@ -12,6 +12,7 @@ typedef struct{
     int gioiTinh; //1. nam 0. nu
     double diemTB;
 }QuanLySV;
+// đổi tên QuanLYSV thành SinhVien vì struct tương đương kiểu đối tượng
 typedef struct{
     QuanLySV *data;
     int capacity;
